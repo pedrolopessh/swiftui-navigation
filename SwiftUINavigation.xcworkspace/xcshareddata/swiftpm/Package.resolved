@@ -12,10 +12,10 @@
     {
       "identity" : "swift-case-paths",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-case-paths",
+      "location" : "https://github.com/pedrolopessh/swift-case-paths",
       "state" : {
-        "revision" : "71344dd930fde41e8f3adafe260adcbb2fc2a3dc",
-        "version" : "1.5.4"
+        "branch" : "swift-syntax-test",
+        "revision" : "5043574f98f4c7f04ebcda2f316d33208792e0a5"
       }
     },
     {
@@ -97,6 +97,15 @@
       "state" : {
         "revision" : "4c6cc0a3b9e8f14b3ae2307c5ccae4de6167ac2c",
         "version" : "600.0.0-prerelease-2024-06-12"
+      }
+    },
+    {
+      "identity" : "swift-syntax-xcframeworks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sjavora/swift-syntax-xcframeworks",
+      "state" : {
+        "revision" : "7501c18dfe20e637818d838df961072176d6296e",
+        "version" : "510.0.1"
       }
     },
     {

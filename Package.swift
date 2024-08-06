@@ -8,7 +8,7 @@ let package = Package(
     .iOS(.v13),
     .macOS(.v10_15),
     .tvOS(.v13),
-    .watchOS(.v6),
+    .watchOS(.v6), 
   ],
   products: [
     .library(
@@ -22,7 +22,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "1.5.4"),
+    .package(url: "https://github.com/pedrolopessh/swift-case-paths", branch: "swift-syntax-test"),
     .package(url: "https://github.com/pointfreeco/swift-custom-dump", from: "1.3.2"),
     .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "1.2.2"),
   ],
